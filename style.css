@@ -1,0 +1,72 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("bianca.jpeg");
+  background-size: cover;
+  color:white;
+}
+.cont{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height:300px;
+  width:200px;
+  justify-content: center;
+  align-items:center;
+  padding-left:90px;
+}
+.cont h2{
+  font-size:15px;
+  width:200px;
+}
+
+.cont form button{
+  padding:5px 5px;
+  margin-left:70px;
+  margin-top:20px;
+  box-shadow:0px 2px 10px gray;
+  border-radius: 20%;
+  border:1px solid lightblue;
+  background:linear-gradient(135deg, pink, violet, purple);
+  color:#B013D5;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+.cont input{
+  background:transparent;
+  border:1px solid gray;
+  box-shadow:0px 0px 20px white;
+  color:white;
+  font-weight: bold;
+  text-shadow:0px 2px 20px red;
+}
+
+.cont input:focus{
+  outline:none;
+}
+
+.cont form button:active{
+  box-shadow:0px 2px 10px red;
+}
+
+.contButt{
+  margin-top:60px;
+  margin-left:126px;
+}
+.contButt button{
+  padding:5px 5px;
+  border-radius: 20%;
+  border:1px solid lightblue;
+  background:linear-gradient(135deg, pink, violet, purple);
+  color:#B013D5;
+  font-weight:bold;
+  text-transform:uppercase;
+  box-shadow:0px 2px 20px #B013D5;
+}
+
+.contButt button:active{
+  box-shadow:0px 2px 20px #310AFF;
+}
